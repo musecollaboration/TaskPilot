@@ -1,0 +1,15 @@
+# MESSAGES CONTROL
+disable = missing-function-docstring,  # Нет документации у функции;
+        missing-module-docstring,  # Нет документации у модуля;
+        missing-class-docstring,  # Нет документации у класса;
+        import-outside-toplevel,  # Импорт выполняется вне верхнего уровня модуля;
+        attribute-defined-outside-init,  # Атрибут класса объявлен вне __init__, что может быть проблемой;
+        line-too-long,  # Строка кода слишком длинная;
+        invalid-str-returned,  # Метод __str__ возвращает некорректный тип;
+        no-member,  # Обращение к несуществующему атрибуту объекта;
+        wrong-import-order,  # Некорректный порядок импортов;
+        unused-argument,  # Передан аргумент, но не используется;
+        unknown-option-value,  # Неизвестное значение опции;
+        consider-using-dict-items,  # Лучше использовать dict.items() вместо dict.keys() или dict.values();
+        bare-except,  # Блок except без указания конкретного исключения;
+        jsonc(514),  # Ошибка в JSONC, возможно, неверный синтаксис.
